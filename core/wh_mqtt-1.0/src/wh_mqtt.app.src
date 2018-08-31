@@ -1,0 +1,12 @@
+{application, wh_mqtt,
+ [
+  {description, ""},
+  {vsn, "1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { wh_mqtt_app, []}},
+  {env, []}
+ ]}.
